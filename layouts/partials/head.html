@@ -11,6 +11,10 @@
 {{ end }}
 
 <link rel="stylesheet" href="{{ "/css/style.css" | relURL }}">
+<link rel="stylesheet" href="{{ "/css/lxgwwenkailite-regular.css" | relURL }}">
+<link rel="stylesheet" href="{{ "/css/lxgwwenkailite-light.css" | relURL }}">
+<link rel="stylesheet" href="{{ "/css/lxgwwenkaimonolite-regular.css" | relURL }}">
+<link rel="stylesheet" href="{{ "/css/lxgwwenkaimonolite-light.css" | relURL }}">
 
 {{ range .Site.Params.customCSS }}
   {{ if ( or ( hasPrefix . "http://" ) ( hasPrefix . "https://" ) ) }}
